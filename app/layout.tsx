@@ -1,5 +1,4 @@
 import "../styles/globals.css";
-import type { ReactNode } from "react";
 
 export const metadata = {
   title: "Infinitswap — Financial Infrastructure for Africa",
@@ -10,7 +9,7 @@ export const metadata = {
 export default function RootLayout({
   children,
 }: {
-  children: ReactNode;
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
@@ -18,4 +17,5 @@ export default function RootLayout({
     </html>
   );
 }
+
 
